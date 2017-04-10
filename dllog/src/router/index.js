@@ -11,12 +11,16 @@ export default new Router({
   	component: require('../components/Details.vue')
     },{
     path: '/',
-	name: 'Home',
-	component: require('../components/Home.vue')
+	 name: 'First',
+	 component: require('../components/First.vue')
     },{
     path: '/succ',
     name: 'succ',
     component: require('../components/succ.vue')
+    },{
+    path: '/Home',
+    name: 'Home',
+    component: require('../components/Home.vue')
     }
   ]
 })
